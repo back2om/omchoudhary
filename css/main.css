@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'code-light';
+  src: url('fonts/CODE Light.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('fonts/CODE Light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+* {
+  box-sizing:border-box;
+}
+h1 {
+  font-family:'code-light';
+  font-size: 5em;
+  text-align: center;
+  font-weight:normal;
+}
+#main-nav {
+  width:60%;
+  margin:0 auto;
+  height:44px;
+  border-top: 1px #000 solid;
+  border-bottom: 1px #000 solid;
+}
+.nav-item {
+  position:relative;
+  float:left;
+  width:25%;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 42px;
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  cursor:pointer;
+  font-size:1.2em;
+}
+.nav-item:hover {
+  color:#EC0000;
+}
+.nav-item.is-selected {
+  color:#EC0000;
+  font-weight:500;
+  border-top: 2px #EC0000 solid;
+  border-bottom: 2px #EC0000 solid;
+  top:-2px;
+}
