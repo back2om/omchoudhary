@@ -1,13 +1,10 @@
-@font-face {
-  font-family: 'code-light';
-  src: url('fonts/CODE Light.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-       url('fonts/CODE Light.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
+@import url("//hello.myfonts.net/count/2fa25d");
+@font-face {font-family: 'Code-Pro-Light-Demo';src: url('webfonts/2FA25D_0_0.eot');src: url('webfonts/2FA25D_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2FA25D_0_0.woff2') format('woff2'),url('webfonts/2FA25D_0_0.woff') format('woff'),url('webfonts/2FA25D_0_0.ttf') format('truetype');}
 * {
   box-sizing:border-box;
 }
 h1 {
-  font-family:'code-light';
+  font-family:'Code-Pro-Light-Demo';
   font-size: 5em;
   text-align: center;
   font-weight:normal;
